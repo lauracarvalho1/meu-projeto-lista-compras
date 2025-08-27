@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Input from "./components/Input";
-import Botao from "./components/Botao";
-import "./index.css";
+import Input from "./components/Input.jsx";
+import Botao from "./components/Botao.jsx";
+import "./App.css";
 
 function App() {
   const [item, setItem] = useState("");
