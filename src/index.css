@@ -1,0 +1,72 @@
+:root {
+  --bg: #f7f7f9;
+  --card: #ffffff;
+  --accent: #4caf50;
+  --text: #222;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app-container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 24px;
+  background: var(--card);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+h1 {
+  margin: 0 0 18px 0;
+  font-size: 1.6rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.inputs {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 6px;
+  background: #fafafa;
+  margin-bottom: 8px;
+}
+
+.item-left {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.total {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
