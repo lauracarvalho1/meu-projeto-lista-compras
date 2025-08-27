@@ -35,3 +35,8 @@ O usuário pode **adicionar itens**, **remover itens** e visualizar o **valor to
    ```arduino
    http://localhost:5173
 
+---
+
+## 📄 Licença
+Este projeto está sob a licença MIT. Sinta-se à vontade para utilizar e modificar.
+
